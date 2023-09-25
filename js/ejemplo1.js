@@ -10,9 +10,12 @@
 
 var nombres=[];
 var NUMERO_NOMBRES=10;
+var sumaNombres = "";
 for(var i =0;i<NUMERO_NOMBRES;i++){
     nombres[i]=prompt("Dimne un nombre");
+    sumaNombres = nombres[i]+", ";
 }
+console.warn(sumaNombres)
 /* AVISOS (WARNING) */
 console.warn("Mensaje warn");
 /* ERRORES */
