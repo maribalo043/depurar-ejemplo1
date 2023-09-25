@@ -10,14 +10,16 @@
 
 var nombres=[];
 var NUMERO_NOMBRES=10;
-
+for(var i =0;i<NUMERO_NOMBRES;i++){
+    nombres[i]=prompt("Dimne un nombre");
+}
 /* AVISOS (WARNING) */
 console.warn("Mensaje warn");
 /* ERRORES */
-console.error("Mensaje err");
+console.error("Mensaje error");
 /* INFORMACIÓN (LOG) */
 console.log("Mensaje log");
 /* DEPURACIÓN (DEBUG) */
-console.debug("Mensaje deb");
+console.debug("Mensaje debug");
  
 
